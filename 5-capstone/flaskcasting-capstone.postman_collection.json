@@ -1,0 +1,690 @@
+{
+	"info": {
+		"_postman_id": "98e74e31-7eb9-4b62-bad5-333a91eed175",
+		"name": "flaskcasting-capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Casting Assistant",
+			"item": [
+				{
+					"name": "/movies/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"connection": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/update/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/update/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/delete/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/delete/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVPcHlkUXpPRFVjTUFIYjBtSmp5QyJ9.eyJpc3MiOiJodHRwczovL2dmcmVkLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZTg5YWY4ZDY1OTUxMTBjMTBjZGUxNTQiLCJhdWQiOiJjYXN0aW5nIiwiaWF0IjoxNTg3MDMyNjc4LCJleHAiOjE1ODcxMTkwNzcsImF6cCI6IlEzUHJVMWh6UUJJSjdEMFhjUXA0eUttN041dnJOV2pBIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJ2aWV3OmFjdG9ycyIsInZpZXc6bW92aWVzIl19.GxEMs2BKww191P5GfY0xmlht7wW0ShulDbrFxc4vJ4leN7tbyqAvYLv_1KFLLxmI21_TAws78cc0_-nx6FzKegy_FpSVOhVbKPsZwPXvXX2rnZUPmUSwegOfFA238cQlH9fVK-1s03TuyjogD5kgH5LWMK7AffylCI1c0dXhoaG1-1v3uj_fqVN5frPvATPOY2ft0xriGS7vdkjPFmodiUNBAc1sPrwfoJp9qhQHgpkz6h_zzhAxLPpDp5kBkakW-eJGMnVpbBZBd199lvV3AA9D1FaIJQ4G1EsY0APRUAwBze6m2vjT3FCJY5Ef5bZGWJMXJOl5O_1r20LqhkStfQ",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "764b50c6-d1a1-43db-a52b-485fa9d277aa",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "5eaad980-f46d-4178-b4f4-706983a4d552",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Casting Director",
+			"item": [
+				{
+					"name": "/movies/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Sharks 5\",\n\t\"release_year\": \"2015\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/movies/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/new",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Asamoah\",\n\t\"age\": 21,\n\t\"gender\": \"Female\",\n\t\"movie_id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/actors/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"connection": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Sharknado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/movies/update/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Udacity\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/actors/update/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/delete/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/delete/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVPcHlkUXpPRFVjTUFIYjBtSmp5QyJ9.eyJpc3MiOiJodHRwczovL2dmcmVkLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZTg5YzgxZjg1ZGQ5ODBjNjhlMzA0MmYiLCJhdWQiOiJjYXN0aW5nIiwiaWF0IjoxNTg3MDMyNzQ3LCJleHAiOjE1ODcxMTkxNDYsImF6cCI6IlEzUHJVMWh6UUJJSjdEMFhjUXA0eUttN041dnJOV2pBIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJhZGQ6YWN0b3JzIiwiZGVsZXRlOmFjdG9ycyIsInVwZGF0ZTphY3RvcnMiLCJ1cGRhdGU6bW92aWVzIiwidmlldzphY3RvcnMiLCJ2aWV3Om1vdmllcyJdfQ.B9A7vWXbJOg6KY1hBf2sczrqdyD8Ue0_zrqgdEbhS_LMtbBnpbqDudtOM0CJ_yd5pGMPK6lJDbiKKSRxgDyYl0XsHOsh6Za3aXXo14Xp_8zSTrI2B9mbbhRURxo6xK2uDJ6FfsV6e35HaWHWZxqYRikO0vRveTGmRWJu7I7PNjr1AO1YuAHQI5vkrCvWimThx8Awf99qUaja28CyWRwywg1OUxVVA33DND9PFazmfIZQNQbP0KjHIL8UwN-aLUpNJI7hHSqM1W1GLSqyOgzZj7Drhas54KDtUWnoyWyR8OfKV9wKEPkVZ_Gv81s9ILm42PPL_Q472JgSESnmWUEQbA",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "856e7485-4692-45a4-9240-9c5c158f6c54",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "89f52871-8a92-4a8e-acf5-da40e3846796",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Executive Producer",
+			"item": [
+				{
+					"name": "/movies/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Sharks 2\",\n\t\"release_year\": \"2012\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/movies/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/new",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Godfred\",\n\t\"age\": 12,\n\t\"gender\": \"Male\",\n\t\"movie_id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/actors/new",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"connection": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"The Mask\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/movies/update/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Tyler Durden\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/actors/update/3",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"update",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/movies/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/delete/2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"delete",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/actors/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/delete/3",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVPcHlkUXpPRFVjTUFIYjBtSmp5QyJ9.eyJpc3MiOiJodHRwczovL2dmcmVkLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZThhNTBlNTg1ZGQ5ODBjNjhlNWFmZjAiLCJhdWQiOiJjYXN0aW5nIiwiaWF0IjoxNTg3MDMyODIwLCJleHAiOjE1ODcxMTkyMTksImF6cCI6IlEzUHJVMWh6UUJJSjdEMFhjUXA0eUttN041dnJOV2pBIiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJhZGQ6YWN0b3JzIiwiYWRkOm1vdmllcyIsImRlbGV0ZTphY3RvcnMiLCJkZWxldGU6bW92aWVzIiwidXBkYXRlOmFjdG9ycyIsInVwZGF0ZTptb3ZpZXMiLCJ2aWV3OmFjdG9ycyIsInZpZXc6bW92aWVzIl19.YOm5uNPiWbhqdt0ZD1czu9PLT4SlaqF8lWzj1Cdp_3LrPLD2JVIZbphE4z8X9iM2Afdz1GnG_Bclhz5O5TvrnvRILc2I83yX2p3nPZhPiUt-T-qdGfP0BPAqxaTaKRDSd-wXtW_aTgb0NbaLyOFXOgIQDW2or0rpiEoLEdL1Bn9oQhxW947ZUdwCtkd_ThOC2gVRREPgTB-bO_4h7EwqQJAnJVHmyHVtsM9v3s_jk48cb7M1T9N_zlGuq7NWK8wAwzwkPnKd7b7W9oVIm7XhTA3J3eMjVetKR0j6pkVkLKjZU4tOBmqnV-CJ6uN3s_xGJuxMsXKEqUedIrswixvpmw",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7c3c8afc-9fb8-430e-b8b6-a2ef5192f441",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "78d3065b-9443-4cf3-9174-ab0bd1c54dac",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e9402152-7932-4e4a-898b-fbba87c28a87",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f7e27aa8-2cf5-4de0-af7b-170e41d0741c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "24226cf7-2d04-46d1-9967-7d972156b8f1",
+			"key": "host",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
