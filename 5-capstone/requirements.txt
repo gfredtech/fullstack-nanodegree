@@ -1,6 +1,6 @@
 alembic==1.4.0
 aniso8601==8.0.0
-certifi==2019.9.11
+certifi==2022.12.7
 Click==7.0
 ecdsa==0.15
 Flask==1.1.1
